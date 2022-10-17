@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* body>p{
+            color: red;
+        }*/
+       /* #p1~p{
+            color: red;
+        }*/
+        #p1+p{
+            color: red;
+        }
+        div{
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            border-radius:15px ;
+            float: left;
+            margin-right:10px;
+        }
+        div[id]{
+            background-color: green;
+        }
+        div[name^="bo"]{
+            background-color: blue;
+        }
+        div[name$=e]{
+            background-color: yellow;
+        }
+        div[name*=i]{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">这是测试数据1</p>
+    <p>这是测试数据1</p>
+    <p>这是测试数据1</p> 
+    <ul>
+        <li><p>这是li里面的数据1</p></li>
+        <li><p>这是li里面的数据2</p></li>
+        <li><p>这是li里面的数据3</p></li>
+        <li><p>这是li里面的数据4</p></li> 
+    </ul>
+    <div>1</div>
+    <div id="second">2</div>
+    <div >3</div>
+    <div name="fouri">4</div>
+    <div name="five">5</div>
+    <div name="box6">6</div>
+    <div name="box7">7</div>
+    <div>8</div>
+    <div>9</div>
+</body>
+</html>

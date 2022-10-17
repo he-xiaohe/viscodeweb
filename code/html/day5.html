@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <table width="500" border="0" align="center">
+            <tr>
+                <th>用户注册</th>
+            </tr>
+            <tr>
+                <td>
+                    <!--fieldset与legend绑定实用,使用fieldset，会生成一个特色的边界线，legend用于定义标题-->
+                    <fieldset>
+                        <legend>必填信息</legend>
+                        <table width="85%" align="center">
+                            <tr><td align="right">用户名</td><td><input type="text" name="username" size="17"></td></tr>
+                            <tr><td align="right">密码</td><td><input type="password" name="userpwd" size="17"></td></tr>
+                        </table>
+                    </fieldset>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>选填信息</legend>
+                        <table width="85%" align="center">
+                            <tr><td align="right">所在城市</td><td><input type="text" name="city" size="19"></td></tr>
+                            <tr><td align="right">所在学校</td><td><input type="text" name="school" size="30"></td></tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>其他个人信息</legend>
+                        <table width="" align="center">
+                            <tr>
+                                <td align="right">性别</td>
+                                <td>
+                                <select>
+                                    <option>男孩</option>
+                                    <option>女孩</option>
+                                </select>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td align="right">爱好</td>
+                                <td>
+                                    <input type="checkbox" name="fav">音乐
+                                    <input type="checkbox" name="fav">体育
+                                    <input type="checkbox" name="fav">计算机
+                                </td>
+                            </tr>
+                            <tr><td align="right"></td><td></td></tr>
+                            <tr><td align="right"></td><td></td></tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
